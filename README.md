@@ -24,12 +24,15 @@ module.exports = [
 
 similarly declare a handler can be defined as orderProcessor.js in handler/actions which can process the changes made to the document 
 ```javascript
-let run = function (change, storeId) {
+let run = function (change, database) {
     console.log('job triggered');
+    // Transform ( NO-SQL to SQL ) / Process / Ingest Data 
 };
 
 module.exports = run;
 ```
+The Change Object has the same structure as defined in [Change] (http://docs.couchdb.org/en/stable/api/database/changes.html) 
+
 # Requisites
 1. Couchdb 
 2. Redis 
