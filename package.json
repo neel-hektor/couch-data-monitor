@@ -1,0 +1,21 @@
+{
+  "name": "couch-data-monitor",
+  "version": "1.0.0",
+  "description": "Client store Job Triggering service",
+  "main": "index.js",
+  "keywords": [
+    "couchdb",
+    "data-monitor"
+  ],
+  "author": "nhector",
+  "license": "private",
+  "dependencies": {
+    "async": "^2.0.0-rc.4",
+    "cradle": "^0.7.1",
+    "hiredis": "^0.4.1",
+    "lodash": "^4.12.0",
+    "moment": "^2.13.0",
+    "nconf": "^0.8.4",
+    "redis": "^2.6.0-2"
+  }
+}

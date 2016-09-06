@@ -1,0 +1,12 @@
+# IDE hidden files
+.name
+*.xml
+*.iml
+
+# Node packages
+node_modules
+
+/config
+# Startup Configuration
+
+.idea
