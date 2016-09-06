@@ -12,6 +12,7 @@
   "dependencies": {
     "async": "^2.0.0-rc.4",
     "cradle": "^0.7.1",
+    "elasticsearch": "^11.0.1",
     "hiredis": "^0.4.1",
     "lodash": "^4.12.0",
     "moment": "^2.13.0",

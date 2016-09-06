@@ -1,0 +1,7 @@
+{
+  "sampleServiceKey": "sample",
+  "es": {
+    "host": "localhost:9200",
+    "log": "trace"
+  }
+}
